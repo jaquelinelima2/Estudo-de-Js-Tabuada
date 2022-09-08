@@ -1,2 +1,13 @@
-# Estudo-de-Js-Tabuada
- Uma Tabuada criada em estudos de JavaScript
+
+# Tabuada em JavaScript
+
+ Repositório criado durante estudo de JavaScript
+
+ 
+## Aprendizados
+
+Uso de condições e laço de repetição.
+
+## 🛠 Habilidades
+JavaScript
+
