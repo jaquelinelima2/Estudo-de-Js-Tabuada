@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Outfit:wght@300;400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --color-01: #f0f8ff;
+  --color-gradiente-02:linear-gradient(360deg, #264684 0%, #3A0155 0.01%, #7B07B1 30.88%, #7200A8 91.18%, #3A0155 100%);
+  --color-03:#6a2fa1;
+  --color-04:#f5deb3;
+  --color-05:rgb(167, 165, 165);
+}
+
+body{
+  background: var(--color-03);
+  font: normal 15px 'Outfit', sans-serif;
+}
+
+input[type="button"]{
+  background: var(--color-gradiente-02);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+  color:var(--color-01);
+  border-radius: 0.3rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  border: var(--color-03);
+  padding: 3px 6px;
+}
+
+input[type="number"]{
+  border:0.1px solid var(--color-05);
+  padding: 0.2rem;
+}
+
+header{
+  color: var(--color-04);
+  text-align: center;
+}
+
+header h1{
+  font-family:'Caveat', cursive;
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
+}
+
+header p{
+  margin: 0;
+  padding-bottom: 1rem;
+  font-size: 1.4rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+.conteudo{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+  height: 90vh;
+}
+
+.conteudo section{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-04);
+  border-radius: 2rem;
+  padding: 15px;
+  width:70vh;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+.conteudo section p{
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+}
+
+footer{
+  color:var(--color-04);
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+select{
+  padding: 1.2rem;
+  width: 7rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  font-size: 0.9rem;  
+  border:0.1px solid var(--color-05);
+}
